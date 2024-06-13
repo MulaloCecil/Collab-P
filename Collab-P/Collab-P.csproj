@@ -58,6 +58,12 @@
     <Compile Include="Itumeleng.Designer.cs">
       <DependentUpon>Itumeleng.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mabore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mabore.Designer.cs">
+      <DependentUpon>Mabore.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Itumeleng.resx">
       <DependentUpon>Itumeleng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mabore.resx">
+      <DependentUpon>Mabore.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
